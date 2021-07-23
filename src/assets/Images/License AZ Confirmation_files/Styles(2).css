@@ -1,0 +1,1731 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body
+{
+	font-size: 1em;
+	font-family: Roboto;
+	color: #000000 line-height;
+}
+
+a:link
+{
+	font-weight: bold;
+	color: #204e82;
+}
+
+a:visited
+{
+	color: #808080;
+}
+
+a:focus
+{
+	color: #204e82;
+}
+
+a:hover
+{
+	color: #0288d1;
+}
+
+a:active
+{
+	color: #204e82;
+}
+
+a.footermaster
+{
+	color: #ffffff;
+}
+
+a.footermaster:visited
+{
+	color: #0d47a1;
+}
+
+a.footermaster:hover
+{
+	color: #0288d1;
+}
+
+a.footermasterurls
+{
+	color: #ffffff;
+	font-style: italic;
+}
+
+a.footermasterurls:visited
+{
+	color: #ffffff;
+}
+
+a.footermasterurls:hover
+{
+	color: #0288d1;
+	font-family: Roboto;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+	color: #38a938;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #204e82;
+}
+
+blockquote
+{
+	background-color: #e1e1e1;
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-bottom: none;
+	border-left-color: #b3b3b3;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #b3b3b3;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #b3b3b3;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 18px;
+	margin: 0;
+	padding-bottom: 0px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 12px;
+	font-family: Arial;
+}
+
+blockquote.name
+{
+	background-image: none;
+	border-bottom-color: #b3b3b3;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	margin-bottom: 0;
+	padding-bottom: 12px;
+	padding-right: 35px;
+	padding-top: 8px;
+	text-align: right;
+}
+
+Div.FooterTable
+{
+	background-repeat: repeat;
+	margin-left: -17px;
+	margin-right: -17px;
+	color: #ffffff;
+	border-top-style: solid;
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: normal;
+	font-weight: bold;
+	border-top-width: 4px;
+	background-color: #204e82;
+	border-top-color: #38a938;
+	font-family: Arial;
+}
+
+Div.GlossaryPageDefinition
+{
+	font-size: 11pt;
+}
+
+Div.GlossaryPageHeading
+{
+	
+}
+
+Div.GlossaryPageTerm
+{
+	
+}
+
+div.ImagesFloatLeft
+{
+	clear: both;
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+div.ImagesFloatRight
+{
+	clear: both;
+	float: right;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+div.TopicContent
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+h1
+{
+	font-style: normal;
+	color: #204e82;
+	font-weight: normal;
+	font-size: 26px;
+	margin-top: 10px;
+	padding-bottom: 8px;
+	line-height: 26pt;
+	margin-bottom: 12px;
+	font-family: Arial;
+}
+
+h1.Appendix
+{
+	
+}
+
+h1.UserGuideBHeading
+{
+	
+}
+
+h2
+{
+	font-style: normal;
+	color: #343434;
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	padding-bottom: 8px;
+	font-family: Arial;
+}
+
+h3
+{
+	font-style: normal;
+	color: #666666;
+	font-size: 22px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	font-family: Arial;
+}
+
+img.AbsolutePosition
+{
+	padding: 5px;
+}
+
+img.FiftyPercentThumbnail
+{
+	mc-thumbnail: popup;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+img.Hyperlinked
+{
+	border-style: none;
+}
+
+img.OneHundredPercent
+{
+	padding: 10px;
+}
+
+img.OneHundredPercentThumbnail
+{
+	mc-thumbnail: popup;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+img.ReduceButtonSize
+{
+	max-height: 18px;
+}
+
+img.SeventyFivePercent
+{
+	padding: 10px;
+}
+
+img.SeventyFivePercentThumbnail
+{
+	mc-thumbnail: popup;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+li
+{
+	orphans: 2;
+	widows: 3;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	font-size: 14px;
+	list-style-image: url('../Images/Green Bullet Point 2.png');
+	font-family: Arial;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+MadCap|conceptLink
+{
+	font-size: 0.8em;
+	font-weight: bold;
+	mc-image: url('../../../Resources/Images/ListIcon.png');
+	mc-label: 'SEE ALSO';
+	padding-top: 8px;
+	text-decoration: none;
+	color: #505050;
+}
+
+MadCap|conceptLink:hover
+{
+	font-weight: bold;
+	color: #0288d1;
+}
+
+MadCap|dropDown
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	mc-disabled: false;
+	list-style-image: url('../../../Resources/Images/ListIcon.png');
+	mc-closed-image: url('../Images/DropDownClosed-Blue.png');
+	mc-open-image: url('../Images/DropDownOpen-Blue.png');
+}
+
+MadCap|dropDown.Footer
+{
+	mc-closed-image: url('../../../Resources/Images/DropDownSmallClosed.png');
+	mc-open-image: url('../../../Resources/Images/DropDownSmallOpen.png');
+}
+
+MadCap|dropDown.SecondLevel
+{
+	margin-left: 10px;
+	mc-closed-image: url('../../../Resources/Images/DropDownClosedSecondLevel.png');
+	mc-open-image: url('../../../Resources/Images/DropDownOpenSecondLevel.png');
+}
+
+MadCap|dropDownBody
+{
+	mc-disabled: false;
+	border-bottom: solid 1px #ededed;
+}
+
+MadCap|dropDownBody.FooterTopicMaster
+{
+	border-bottom-color: #b3b3b3;
+}
+
+MadCap|dropDownBody.Final
+{
+	border-bottom: 0px;
+}
+
+MadCap|dropDownHead
+{
+	mc-disabled: false;
+	font-size: ;
+	list-style-image: url('../../../Resources/Images/DropDownClosed.png');
+}
+
+MadCap|dropDownHotspot
+{
+	mc-disabled: false;
+	font-style: normal;
+	list-style-image: url('../../../Resources/Images/DropDownClosed.png');
+	color: #204e82;
+	font-size: 12pt;
+	font-weight: normal;
+	font-family: Arial;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	font-weight: normal;
+	color: #666666;
+}
+
+MadCap|dropDownHotspot.Footer
+{
+	color: #ffffff;
+	font-size: 0.8em;
+}
+
+MadCap|dropDownHotspot.Footer:hover
+{
+	color: #38a938;
+}
+
+MadCap|footnoteBlock
+{
+	
+}
+
+MadCap|footnotesBlock
+{
+	
+}
+
+MadCap|glossaryProxy
+{
+	
+}
+
+MadCap|indexProxy
+{
+	
+}
+
+MadCap|miniTocProxy
+{
+	
+}
+
+MadCap|tocProxy
+{
+	
+}
+
+MadCap|popup
+{
+	color: #1a2732;
+	mc-popup-height: auto;
+	mc-popup-width: auto;
+}
+
+MadCap|popup:focus
+{
+	color: #1a2732;
+}
+
+MadCap|popup:hover
+{
+	color: #1a2732;
+}
+
+MadCap|popupHead
+{
+	font-weight: bold;
+	color: #1a2732;
+	mc-popup-height: auto;
+	mc-popup-width: auto;
+}
+
+MadCap|xref
+{
+	mc-format: '{para}';
+	color: #2a67ab;
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: #0288d1;
+	text-decoration: none;
+}
+
+MadCap|xref.IndexPageNumber
+{
+	
+}
+
+ol
+{
+	color: #343434;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+ol.LowerAlpha
+{
+	list-style-type: lower-alpha;
+	margin-left: -10px;
+}
+
+ol.LowerRoman
+{
+	list-style-type: lower-roman;
+	margin-left: -10px;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	color: #343434;
+	font-size: 14px;
+	list-style-image: url('../../../Resources/Images/DropDownClosed.png');
+	font-family: Arial;
+}
+
+p.Copyright
+{
+	
+}
+
+p.CopyrightAddress
+{
+	
+}
+
+p.CopyrightHeading
+{
+	
+}
+
+p.CreatedUsingFlare
+{
+	
+}
+
+p.EmptyPageText
+{
+	
+}
+
+p.Example
+{
+	margin-top: 0px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 6px;
+	padding-bottom: 14px;
+	background-color: #d97905;
+	font-family: Arial;
+}
+
+p.ExampleHead
+{
+	font-size: .9em;
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-bottom: 0px;
+	margin-top: 6px;
+	page-break-after: avoid;
+	background-color: #d97905;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 14px;
+	padding-bottom: 6px;
+	font-family: Arial;
+}
+
+p.ExampleMiddleSection
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #d97905;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-family: Arial;
+}
+
+p.Figure
+{
+	
+}
+
+p.FirstPageOfChapter
+{
+	
+}
+
+p.FooterTopicMaster
+{
+	color: #ffffff;
+	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 16px;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 2px;
+}
+
+p.FooterTopicMasterLastLine
+{
+	color: #ffffff;
+	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 16px;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-left: 2px;
+}
+
+p.FooterTopicMasterLastLineLeftPadding
+{
+	color: #ffffff;
+	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 16px;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 3px;
+	padding-top: 0px;
+	text-align: left;
+}
+
+p.FooterTopicMasterLeftPadding
+{
+	color: #ffffff;
+	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 16px;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 3px;
+	text-align: left;
+}
+
+p.FrameFooterText
+{
+	
+}
+
+p.FrameFooterText2
+{
+	
+}
+
+p.GlossaryPrintHead
+{
+	
+}
+
+p.IndexHeading
+{
+	
+}
+
+p.IndexPrintHead
+{
+	
+}
+
+p.ManualTitle1
+{
+	
+}
+
+p.ManualTitle2
+{
+	
+}
+
+p.ManualVersionNumber
+{
+	
+}
+
+p.MiniTOC1
+{
+	
+}
+
+p.note
+{
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	mc-auto-number-format: '{b}{color #bed230}Note: {/color}{/b}';
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #1a2732;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #1a2732;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #1a2732;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #1a2732;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #ffffff;
+	background-color: 204e82;
+	font-family: Arial;
+}
+
+p.noteBottom
+{
+	border-bottom-color: #404040;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #404040;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #404040;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 0px;
+	color: #f5f5f5;
+	background-color: #1a2732;
+	font-family: Arial;
+}
+
+p.noteMiddle
+{
+	border-bottom: 0px;
+	border-left-color: #404040;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #404040;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 0px;
+	color: #f5f5f5;
+	background-color: #1a2732;
+}
+
+p.noteTop
+{
+	background-repeat: no-repeat;
+	border-left-color: #404040;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #404040;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #404040;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin-bottom: 0;
+	mc-auto-number-format: '{b}{color #bed230}Note: {/color}{/b}';
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	color: #f5f5f5;
+	background-color: #1a2732;
+	font-family: Arial;
+}
+
+p.SeeAlsoLink
+{
+	border-top-color: #b3b3b3;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-size: 1.10em;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+p.TableCaption
+{
+	
+}
+
+p.TableTextCenterDark
+{
+	color: #000000;
+	margin-bottom: 2px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+p.TableTextDark
+{
+	color: #000000;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+p.TableTextDarkEmphasis
+{
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+p.TableTextHeadDark
+{
+	color: #000000;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+p.TableTextLightEmphasis
+{
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+p.TOCHeading
+{
+	
+}
+
+span.Emphasis
+{
+	font-weight: bold;
+	color: #858585;
+}
+
+span.FigureNum
+{
+	
+}
+
+span.SeeAlsoIndexTerms
+{
+	font-style: italic;
+}
+
+span.SeeIndexTerms
+{
+	font-style: italic;
+}
+
+span.SetOffFirstLevel
+{
+	font-weight: bold;
+	color: #1a2732;
+}
+
+span.SetOffSecondLevel
+{
+	font-weight: bold;
+	color: #808080;
+}
+
+span.TableNum
+{
+	
+}
+
+td
+{
+	margin: 8px;
+	vertical-align: top;
+	font-size: 10pt;
+	font-family: Arial;
+}
+
+th
+{
+	color: #ffffff;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	overflow: hidden;
+	border-collapse: separate;
+	font-size: 10pt;
+	font-family: Arial;
+}
+
+tr
+{
+	font-size: 10pt;
+	font-family: Arial;
+}
+
+ul
+{
+	list-style-image: url('../Images/Green bullet point arrow.png');
+	font-size: 14px;
+	color: #343434;
+	font-family: Arial;
+}
+
+ul.FirstLevelLessIndentation
+{
+	margin-left: -10px;
+	font-family: Arial;
+}
+
+ul.SecondLevel
+{
+	margin-left: -10px;
+	font-family: Arial;
+}
+
+h4
+{
+	mc-heading-level: 0;
+}
+
+li::marker
+{
+	
+}
+
+MadCap|expandingHead:hover
+{
+	text-decoration: underline;
+	color: #38a938;
+}
+
+MadCap|expandingHead:focus
+{
+	color: #204e82;
+}
+
+MadCap|dropDownHotspot:focus
+{
+	text-decoration: none;
+}
+
+MadCap|xref:focus
+{
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+ol.LowerAlpha > li::marker
+{
+	
+}
+
+ul.BulletedChapters > li::marker
+{
+	list-style-image: url('../Images/Green bullet point arrow.png');
+}
+
+MadCap|helpControlMenuItem
+{
+	font-family: Arial;
+}
+
+MadCap|slideshowCaption
+{
+	font-family: Arial;
+}
+
+dl
+{
+	font-family: Arial;
+}
+
+img
+{
+	border-width: ;
+	border-right-color: #204e82;
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-bottom: solid 2px #204e82;
+	border-color: #204e82;
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-right: solid 2px #204e82;
+	border-top: solid 2px #204e82;
+}
+
+@media print
+{
+	body
+	{
+		margin: 8px;
+		color: #000000;
+		font-family: Roboto;
+		font-size: 11pt;
+		line-height: 17px;
+	}
+
+	Div.GlossaryPageDefinition
+	{
+		color: #1a2732;
+		font-size: 10pt;
+	}
+
+	Div.GlossaryPageHeading
+	{
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: #38a938;
+		color: #38a938;
+		font-size: 12pt;
+	}
+
+	Div.GlossaryPageTerm
+	{
+		padding-bottom: 10px;
+		padding-top: 10px;
+		color: #38a938;
+		font-size: 11pt;
+	}
+
+	h1
+	{
+		margin-left: 0;
+		mc-auto-number-class: ChapAutoNum;
+		font-weight: bold;
+		font-style: normal;
+		text-align: left;
+		font-size: 16pt;
+		display: block;
+		page-break-inside: auto;
+		background-color: #ffffff;
+		margin-bottom: 5px;
+		padding-bottom: 4px;
+		color: #204e82;
+		font-family: Roboto;
+	}
+
+	h1.Appendix
+	{
+		mc-auto-number-format: 'APPENDIX ';
+	}
+
+	h1.UserGuideBHeading
+	{
+		page-break-before: avoid;
+	}
+
+	h2
+	{
+		font-weight: bold;
+		vertical-align: middle;
+		background-position-x: center;
+		background-position-y: center;
+		margin-left: 0;
+		font-size: 14pt;
+		background: inherit;
+		background-color: #ededed;
+		page-break-before: auto;
+		orphans: 3;
+		widows: 3;
+		line-height: 18pt;
+		color: #204e82;
+	}
+
+	h3
+	{
+		font-size: 14pt;
+		font-weight: bold;
+		font-style: normal;
+		line-height: 16pt;
+		margin-left: 0;
+		background-color: #ffffff;
+		mc-heading-level: 3;
+		color: #337ab7;
+		font-family: Roboto;
+	}
+
+	h4
+	{
+		line-height: 11pt;
+		mc-heading-level: 0;
+		font-weight: bold;
+		color: #1a2732;
+		font-size: 12pt;
+	}
+
+	img.FiftyPercentThumbnail
+	{
+		max-width: 50%;
+	}
+
+	img.OneHundredPercent
+	{
+		max-width: 100%;
+	}
+
+	img.OneHundredPercentThumbnail
+	{
+		max-width: 100%;
+	}
+
+	img.SeventyFivePercent
+	{
+		max-width: 75%;
+	}
+
+	img.SeventyFivePercentThumbnail
+	{
+		max-width: 75%;
+	}
+
+	MadCap|dropDown.SecondLevel
+	{
+		background-color: transparent;
+		margin-left: 10px;
+	}
+
+	MadCap|dropDownBody
+	{
+		border-bottom: none;
+	}
+
+	MadCap|dropDownHead
+	{
+		margin-top: 16px;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 12pt;
+		color: #204e82;
+		font-family: Roboto;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		font-size: 12pt;
+		color: #204e82;
+		font-family: Roboto;
+	}
+
+	MadCap|footnoteBlock
+	{
+		font-size: 7pt;
+	}
+
+	MadCap|footnotesBlock
+	{
+		border-top-color: #bed230;
+	}
+
+	MadCap|glossaryProxy
+	{
+		border-top: none;
+		color: #1a2732;
+	}
+
+	MadCap|indexProxy
+	{
+		border-top: none;
+		color: #e1e1e1;
+	}
+
+	MadCap|miniTocProxy
+	{
+		border-top-width: 0px;
+		margin-left: 0.25in;
+		margin-right: 0.25in;
+		padding-left: 0px;
+	}
+
+	MadCap|tocProxy
+	{
+		border-top: none;
+		margin-right: 0.25in;
+		color: #1a2732;
+		font-family: 'Roboto';
+		font-size: 11pt;
+		border-top-color: #1a2732;
+	}
+
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+		color: #204e82;
+	}
+
+	MadCap|xref.IndexPageNumber
+	{
+		color: #0d47a1;
+	}
+
+	ol.LowerAlpha
+	{
+		margin-left: 30px;
+	}
+
+	ol.LowerRoman
+	{
+		margin-left: 30px;
+	}
+
+	p
+	{
+		color: #1a2732;
+		line-height: 20px;
+		margin-top: 12px;
+		margin-bottom: 12px;
+		font-size: 11pt;
+		font-family: Open Sans;
+	}
+
+	p.Copyright
+	{
+		margin-bottom: 8px;
+		margin-top: 8px;
+	}
+
+	p.CopyrightAddress
+	{
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	p.CopyrightHeading
+	{
+		margin-top: 1in;
+		page-break-before: always;
+	}
+
+	p.CreatedUsingFlare
+	{
+		font-weight: bold;
+		margin-top: 18px;
+	}
+
+	p.EmptyPageText
+	{
+		font-size: 10pt;
+		font-weight: bold;
+	}
+
+	p.Figure
+	{
+		color: #404040;
+		font-style: italic;
+		mc-auto-number-class: FigureNum;
+		mc-auto-number-format: 'CF:Figure {chapnum}-{n+} ';
+		margin-left: 10px;
+		padding-bottom: 10px;
+	}
+
+	p.FirstPageOfChapter
+	{
+		color: #e1e1e1;
+	}
+
+	p.FrameFooterText
+	{
+		font-size: 24pt;
+		font-family: Roboto;
+	}
+
+	p.FrameFooterText2
+	{
+		color: #404040;
+		font-size: 11pt;
+		font-family: Roboto;
+	}
+
+	p.GlossaryPrintHead
+	{
+		color: #3e3e3e;
+		letter-spacing: -1px;
+		mc-heading-level: 1;
+		page-break-before: always;
+		text-align: right;
+		font-size: 16pt;
+		font-family: Roboto;
+	}
+
+	p.IndexHeading
+	{
+		font-size: 11pt;
+		padding-top: 16px;
+		text-align: left;
+	}
+
+	p.IndexPrintHead
+	{
+		color: #3e3e3e;
+		letter-spacing: -1px;
+		mc-heading-level: 1;
+		page-break-before: always;
+		text-align: right;
+		font-size: 16pt;
+		font-family: Roboto;
+	}
+
+	p.ManualTitle1
+	{
+		font-size: 9pt;
+		margin-bottom: 0;
+		margin-left: 1in;
+		margin-top: 2.00in;
+		font-family: Roboto;
+	}
+
+	p.ManualTitle2
+	{
+		color: #bed230;
+		font-size: 22pt;
+		line-height: 0;
+		margin-bottom: 0;
+		margin-left: 1in;
+		margin-top: 0;
+		font-family: Roboto;
+	}
+
+	p.ManualVersionNumber
+	{
+		color: #b3b3b3;
+		font-size: 12pt;
+		margin-left: 1in;
+		margin-top: 12pt;
+		font-family: Roboto;
+	}
+
+	p.MiniTOC1
+	{
+		color: #e1e1e1;
+		font-size: 9pt;
+		font-weight: normal;
+	}
+
+	p.TableCaption
+	{
+		color: #404040;
+		font-style: italic;
+		mc-auto-number-class: TableNum;
+		mc-auto-number-format: 'CT:Table {chapnum}-{n+} ';
+		padding-bottom: 0;
+		padding-top: 12px;
+	}
+
+	p.TOC1
+	{
+		margin-bottom: 6px;
+		mc-leader-format: 'none';
+		page-break-after: avoid;
+		font-weight: bold;
+		font-size: 14pt;
+		margin-top: 6px;
+		mc-pagenum-display: leaf;
+		color: #204e82;
+	}
+
+	p.TOC2
+	{
+		margin-bottom: 2px;
+		margin-left: 0.25in;
+		margin-top: 2px;
+		color: #1a2732;
+		font-weight: bold;
+		font-size: 11pt;
+		padding: 0px 0px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		line-height: 18pt;
+	}
+
+	p.TOC3
+	{
+		font-weight: normal;
+		margin-bottom: 2px;
+		margin-left: 0.35in;
+		margin-top: 2px;
+		line-height: 22px;
+		font-size: 11pt;
+		color: #1a2732;
+	}
+
+	p.TOC4
+	{
+		font-weight: normal;
+		margin-bottom: 6px;
+		margin-left: 0;
+		margin-top: 12px;
+		font-size: 10pt;
+		color: #000000;
+	}
+
+	p.TOCHeading
+	{
+		letter-spacing: -1px;
+		line-height: 92pt;
+		margin: 0;
+		mc-heading-level: 0;
+		text-align: center;
+		font-size: 14pt;
+		font-weight: bold;
+		color: #204e82;
+	}
+
+	span.ChapAutoNum
+	{
+		color: #3e3e3e;
+		letter-spacing: -1px;
+		font-weight: normal;
+		font-size: 14pt;
+		font-family: Open Sans;
+	}
+
+	span.FigureNum
+	{
+		font-style: normal;
+		color: #38a938;
+	}
+
+	span.TableNum
+	{
+		font-style: normal;
+		color: #38a938;
+	}
+
+	tr
+	{
+		page-break-inside: avoid;
+	}
+
+	ul
+	{
+		line-height: 14px;
+		list-style-image: url('../Images/Green bullet point arrow PRINT.png');
+	}
+
+	ul.FirstLevelLessIndentation
+	{
+		margin-left: 30px;
+	}
+
+	ul.SecondLevel
+	{
+		margin-left: 30px;
+	}
+
+	html
+	{
+		font-size: 10pt;
+		font-family: 'Open Sans';
+		color: #1a2732;
+	}
+
+	th
+	{
+		border-collapse: separate;
+		overflow: hidden;
+	}
+
+	Div.FooterTable
+	{
+		font-weight: bold;
+		font-style: normal;
+		color: #ffffff;
+		border-top-style: solid;
+		padding-left: 17px;
+		padding-right: 17px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-top-color: #38a938;
+		border-top-width: 4px;
+		background-color: #204e82;
+		font-family: Roboto;
+	}
+
+	MadCap|dropDownHotspot:hover
+	{
+		color: #38a938;
+	}
+
+	MadCap|dropDownHotspot.Footer:hover
+	{
+		color: #38a938;
+	}
+
+	MadCap|glossaryTerm
+	{
+		color: #808080;
+	}
+
+	a
+	{
+		font-size: 12pt;
+		color: #0d47a1;
+		font-family: Open Sans;
+	}
+
+	a.MCBreadcrumbsLink:hover
+	{
+		color: #204e82;
+	}
+
+	a:hover
+	{
+		color: #0288d1;
+	}
+
+	a:active
+	{
+		color: #204e82;
+	}
+
+	a:focus
+	{
+		color: #204e82;
+	}
+
+	a:link
+	{
+		color: #204e82;
+	}
+
+	p.Example
+	{
+		background-color: #dcdcdc;
+	}
+
+	p.ExampleHead
+	{
+		background-color: #dcdcdc;
+	}
+
+	p.ExampleMiddleSection
+	{
+		background-color: #dcdcdc;
+	}
+
+	MadCap|xref:hover
+	{
+		color: #0288d1;
+	}
+
+	MadCap|conceptLink:hover
+	{
+		color: #0288d1;
+	}
+
+	a.footermaster:hover
+	{
+		color: #0288d1;
+	}
+
+	a.footermasterurls:hover
+	{
+		color: #0288d1;
+	}
+
+	li
+	{
+		margin-bottom: 6px;
+		margin-top: 6px;
+		font-size: 11pt;
+		line-height: 20px;
+		color: #1a2732;
+		font-family: Open Sans;
+	}
+
+	td
+	{
+		font-size: 10pt;
+		font-family: Open Sans;
+	}
+
+	ul.BulletedChapters
+	{
+		color: #000000;
+	}
+
+	a:visited
+	{
+		color: #808080;
+	}
+
+	a.Popup
+	{
+		color: #204e82;
+	}
+
+	a.footermaster:visited
+	{
+		color: #0d47a1;
+	}
+
+	li::marker
+	{
+		
+	}
+
+	ol
+	{
+		
+	}
+}
+
+@media non-print
+{
+	p
+	{
+		font-size: 11pt;
+		margin-top: 11px;
+		margin-bottom: 11px;
+		font-family: Roboto;
+	}
+
+	li::marker
+	{
+		
+	}
+
+	ul.SecondLevel
+	{
+		
+	}
+
+	ul.BulletedChapters
+	{
+		list-style-image: url('../Images/Green bullet point arrow.png');
+	}
+
+	MadCap|xref
+	{
+		text-decoration: underline;
+	}
+}
+
+a
+{
+	color: #204e82;
+}
+
+MadCap|glossaryTerm
+{
+	color: #808080;
+}
+
+a.Popup
+{
+	mc-popup-height: auto;
+	color: #204e82;
+}
+
+MadCap|keywordLink
+{
+	color: #204e82;
+}
+
+MadCap|relatedTopics
+{
+	color: #337ab7;
+}
+
+MadCap|shortcut
+{
+	color: #337ab7;
+}
+
+MadCap|toggler
+{
+	font-size: 8pt;
+	color: #000000;
+}
+
+MadCap|helpControlMenuItem.Highlighted
+{
+	background-color: #696969;
+}
+
+p.popup
+{
+	font-weight: bold;
+	font-style: normal;
+	color: #1a2732;
+}
+
+ul.BulletedChapters
+{
+	list-style-image: url('../Images/Green bullet point arrow.png');
+}
+
+MadCap|xref:active
+{
+	color: # #2A67AB;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+MadCap|xref:link
+{
+	color: # #2A67AB;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+MadCap|xref:visited
+{
+	color: # #2A67AB;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+ul.GreenBulletPoints
+{
+	list-style-image: url('../Images/Green Bullet Point 2.png');
+}
+
+ul.GreenBulletPoints > li > ul
+{
+	list-style-image: url('../Images/Green Bullet Point 2.png');
+}
+
+ul.GreenBulletPoints > li > ul > li > ul
+{
+	list-style-image: url('../Images/Green Bullet Point 2.png');
+}
+
+ul.GreenBulletPoints > li > ul > li > ul > li > ul
+{
+	list-style-image: none;
+}
+
+@media only screen and (max-width: 767px)
+{
+	MadCap|xref
+	{
+		text-decoration: underline;
+	}
+}
+

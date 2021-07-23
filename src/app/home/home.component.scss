@@ -1,0 +1,108 @@
+
+
+
+
+//fieldset 
+fieldset.Tab1{ 
+background-color: #ff4e00;
+height: 150px;
+width: 500px;
+border: 5px solid rgb(2, 2, 2) ;
+position: relative;
+right: 12.5%;
+float: left;
+margin: 20px;
+overflow: auto;
+
+
+
+//legend
+legend{
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+    }
+}
+//Nav
+    //Body      
+nav.Body{
+    // text color
+        a{ color: rgb(255, 255, 255);}
+    //Hover Color
+        a:hover{background:rgb(0, 0, 0);}
+    //Text Decoration 
+        a{text-decoration: none;}
+        a{display: inline-block;}
+        a{padding: 1px;}
+    }
+    }
+    img{
+        float: right;
+        padding: 100px 10px;
+    }
+fieldset.Tab2{ 
+    background-color: #ff4e00;
+    height: 150px;
+    width: 500px;
+    border: 5px solid rgb(2, 2, 2) ;
+    position: relative;
+    right: 12.5%;
+    float: right;
+    margin: 20px;
+    overflow: auto;
+    
+    //legend
+    legend{
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 18px;
+        }
+    }
+    //Nav
+        //Body      
+    nav.Body{
+        // text color
+            a{ color: rgb(255, 255, 255);}
+        //Hover Color
+            a:hover{background:rgb(0, 0, 0);}
+        //Text Decoration 
+            a{text-decoration: none;}
+            a{display: inline-block;}
+            a{padding: 1px;}
+        }
+    }
+fieldset.Tab3{ 
+        background-color: #ff4e00;
+        height: 150px;
+        width: 500px;
+        border: 5px solid rgb(2, 2, 2) ;
+        position: relative;
+        right: 12.5%;
+        float: left;
+        margin: 20px;
+        overflow: auto;
+        
+        //legend
+        legend{
+            a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 18px;
+            }
+        }
+        //Nav
+            //Body      
+        nav.Body{
+            // text color
+                a{ color: rgb(255, 255, 255);}
+            //Hover Color
+                a:hover{background:rgb(0, 0, 0);}
+            //Text Decoration 
+                a{text-decoration: none;}
+                a{display: inline-block;}
+                a{padding: 1px;}
+            }
+    }    
+
